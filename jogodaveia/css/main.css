@@ -1,0 +1,44 @@
+:root {
+    --cor-fundo: rgb(75, 112, 38) ;    
+    --cor-fundo-dark: rgb(0, 0, 0);
+    --cor-fundo-white: rgb(255, 255, 255);
+}
+
+*{
+margin: 0;
+padding: 0;
+outline: 0;
+box-sizing: border-box;
+text-rendering: optimizeLegibility;
+}
+
+.container {
+display: flex;
+background: var(--cor-fundo);
+align-items: center;
+flex-direction: column;
+}
+
+.matriz {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    max-width: 500%;
+    cursor: pointer;
+}
+
+.grid {
+    background-color: var(--cor-fundo-white);
+    border: 3px solid rgb(0, 0, 0);
+    min-height: 100px;
+    min-width: 100px;
+}
+
+#reiniciar {
+    width: 100px;
+    height: 100px;
+    background-color: var(--cor-fundo-white);
+    cursor: pointer;
+    margin-top: 100px;
+    font-size: 20px;
+}
