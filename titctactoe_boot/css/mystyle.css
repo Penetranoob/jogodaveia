@@ -1,0 +1,24 @@
+/* Reset das configurações do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nosifer', serif;
+    text-rendering: optimizeLegibility;
+}
+
+
+
+/* Definições da barra de navegação */
+.bg_que_eu_quero {
+    background-color:rgb(255, 116, 116);
+}
+body {
+    background:rgb(255, 116, 116);
+}
+
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
